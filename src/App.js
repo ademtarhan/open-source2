@@ -86,6 +86,7 @@ function App() {
   }
   return (
     <div className="body">
+    <h2>Version2</h2>
       <Buttons onClick={handleClick} numbers={numbers} operation={operation} />
     </div>
   );
